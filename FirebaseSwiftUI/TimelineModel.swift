@@ -10,12 +10,10 @@ import Foundation
 
 class TimelineModel: ObservableObject {
     @Published var itemArray: [Item] = []
-    @Published var loadEnded: Bool = false
     
     init() {
         Network.listen { itemArray in
             self.itemArray = itemArray
-            self.loadEnded = true
         }
     }
 }
