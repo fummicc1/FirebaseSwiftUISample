@@ -3,37 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6B25766D0BA437930EB49B1C /* Pods_FirebaseSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E14AB803A2BCFD022F0AC8 /* Pods_FirebaseSwiftUI.framework */; };
-		D33F1AE2234EE9F7003844A7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33F1AE1234EE9F7003844A7 /* Model.swift */; };
 		D33F1AE4234EEA0C003844A7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33F1AE3234EEA0C003844A7 /* Network.swift */; };
 		D33F1AE6234EEA8F003844A7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33F1AE5234EEA8F003844A7 /* Item.swift */; };
 		D38F138F234CF263007D1606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F138E234CF263007D1606 /* AppDelegate.swift */; };
 		D38F1391234CF263007D1606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F1390234CF263007D1606 /* SceneDelegate.swift */; };
-		D38F1393234CF263007D1606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F1392234CF263007D1606 /* ContentView.swift */; };
+		D38F1393234CF263007D1606 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F1392234CF263007D1606 /* TimelineView.swift */; };
 		D38F1395234CF265007D1606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F1394234CF265007D1606 /* Assets.xcassets */; };
 		D38F1398234CF265007D1606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F1397234CF265007D1606 /* Preview Assets.xcassets */; };
 		D38F139B234CF265007D1606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38F1399234CF265007D1606 /* LaunchScreen.storyboard */; };
+		D3E1C0EF234EEEF80006BB3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E1C0EE234EEEF80006BB3A /* GoogleService-Info.plist */; };
+		D3E1C0F1234F00FA0006BB3A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E1C0F0234F00FA0006BB3A /* PostView.swift */; };
+		D3E1C0F3234F19D30006BB3A /* TimelineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E1C0F2234F19D30006BB3A /* TimelineModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25E14AB803A2BCFD022F0AC8 /* Pods_FirebaseSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7A0D6F0D2231CED6DD59C7 /* Pods-FirebaseSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseSwiftUI/Pods-FirebaseSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		8358A6435610A03334D1B2E5 /* Pods-FirebaseSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-FirebaseSwiftUI/Pods-FirebaseSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
-		D33F1AE1234EE9F7003844A7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D33F1AE3234EEA0C003844A7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D33F1AE5234EEA8F003844A7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D38F138B234CF263007D1606 /* FirebaseSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F138E234CF263007D1606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D38F1390234CF263007D1606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D38F1392234CF263007D1606 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D38F1392234CF263007D1606 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		D38F1394234CF265007D1606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38F1397234CF265007D1606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D38F139A234CF265007D1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38F139C234CF265007D1606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E1C0EE234EEEF80006BB3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3E1C0F0234F00FA0006BB3A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		D3E1C0F2234F19D30006BB3A /* TimelineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,6 @@
 				4C7A0D6F0D2231CED6DD59C7 /* Pods-FirebaseSwiftUI.debug.xcconfig */,
 				8358A6435610A03334D1B2E5 /* Pods-FirebaseSwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,13 +90,15 @@
 		D38F138D234CF263007D1606 /* FirebaseSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D3E1C0EE234EEEF80006BB3A /* GoogleService-Info.plist */,
 				D38F139C234CF265007D1606 /* Info.plist */,
 				D38F138E234CF263007D1606 /* AppDelegate.swift */,
-				D38F1392234CF263007D1606 /* ContentView.swift */,
 				D33F1AE5234EEA8F003844A7 /* Item.swift */,
-				D33F1AE1234EE9F7003844A7 /* Model.swift */,
 				D33F1AE3234EEA0C003844A7 /* Network.swift */,
+				D3E1C0F0234F00FA0006BB3A /* PostView.swift */,
 				D38F1390234CF263007D1606 /* SceneDelegate.swift */,
+				D3E1C0F2234F19D30006BB3A /* TimelineModel.swift */,
+				D38F1392234CF263007D1606 /* TimelineView.swift */,
 				D38F1394234CF265007D1606 /* Assets.xcassets */,
 				D38F1399234CF265007D1606 /* LaunchScreen.storyboard */,
 				D38F1396234CF265007D1606 /* Preview Content */,
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38F139B234CF265007D1606 /* LaunchScreen.storyboard in Resources */,
+				D3E1C0EF234EEEF80006BB3A /* GoogleService-Info.plist in Resources */,
 				D38F1398234CF265007D1606 /* Preview Assets.xcassets in Resources */,
 				D38F1395234CF265007D1606 /* Assets.xcassets in Resources */,
 			);
@@ -224,11 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E1C0F3234F19D30006BB3A /* TimelineModel.swift in Sources */,
 				D38F138F234CF263007D1606 /* AppDelegate.swift in Sources */,
 				D38F1391234CF263007D1606 /* SceneDelegate.swift in Sources */,
-				D38F1393234CF263007D1606 /* ContentView.swift in Sources */,
-				D33F1AE2234EE9F7003844A7 /* Model.swift in Sources */,
+				D38F1393234CF263007D1606 /* TimelineView.swift in Sources */,
 				D33F1AE6234EEA8F003844A7 /* Item.swift in Sources */,
+				D3E1C0F1234F00FA0006BB3A /* PostView.swift in Sources */,
 				D33F1AE4234EEA0C003844A7 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.tanaka.fummicc1.FirebaseSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swimee.FirebaseSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,7 +403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.tanaka.fummicc1.FirebaseSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swimee.FirebaseSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

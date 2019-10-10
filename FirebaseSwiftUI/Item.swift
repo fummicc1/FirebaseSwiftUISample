@@ -8,8 +8,22 @@
 
 import Foundation
 
-struct Item: Codable, Identifiable {
+struct Item: Identifiable {
     var id: String
     var senderName: String
     var message: String
+    
+    init(data: [String: Any]) {
+        id = data["id"] as? String ?? ""
+        senderName = data["senderName"] as? String ?? ""
+        message = data["message"] as? String ?? ""
+    }
+    
+    var dictionary: [String: Any] {
+        return [
+            "id": id,
+            "senderName": senderName,
+            "message": message
+        ]
+    }
 }
